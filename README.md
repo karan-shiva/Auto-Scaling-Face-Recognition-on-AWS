@@ -82,29 +82,6 @@ This project implements a cloud-native, elastic face recognition system using AW
 
 ---
 
-## 📂 Directory Structure
-
-```
-.
-├── web_tier/
-│   ├── app.py               # Flask API & SQS interaction
-│   ├── autoscaler.py        # Redis-backed autoscaling controller
-│   └── utils.py             # Utility functions
-├── app_tier/
-│   ├── listener.py          # SQS consumer + face recognition
-│   └── face_model/          # Model code & pretrained weights
-├── infra/
-│   ├── create_buckets.sh    # S3 automation
-│   └── create_queues.sh     # SQS automation
-├── redis/
-│   └── tracker.py           # Tracks SQS queue size in Redis
-├── scripts/
-│   ├── workload_generator.py
-│   └── p2_grader.py
-```
-
----
-
 ## ✅ Testing & Evaluation
 
 Use the workload generator and grading script to test:

@@ -84,7 +84,7 @@ This project implements a cloud-native, elastic face recognition system using AW
 
 ## ✅ Testing & Evaluation
 
-Use the workload generator and grading script to test:
+Use the workload generator and testing script to test:
 
 ```bash
 python3 workload_generator.py --n 10 --server http://<elastic-ip>/
